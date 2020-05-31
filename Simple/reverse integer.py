@@ -1,0 +1,1 @@
+x = 1534236469print(x.bit_length())if x < 0:    sign = -1    x = sign * xelse:    sign = 1x = str(x)lst = list(x)lst.reverse()x = int("".join(lst))x = sign * xprint(x)# # x = int(x)# print(x)

@@ -1,0 +1,1 @@
+dic = {'(':')', '[':']', '{':'}'}left = []s = '[()]'for c in s:    if c in dic:        left.append(c)        print(left)        print('====')    elif (left and c==dic[left.pop()]):        print('---')        print(dic[left.pop()])        print('---')        continue    else:        print('False')print(not left)

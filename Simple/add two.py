@@ -1,0 +1,1 @@
+nums = [3, 3]target = 6hash_table = {}for i in range(len(nums)):    hash_table[nums[i]] = i    print(hash_table)for i in range(len(nums)):    if target - nums[i] in hash_table:        if hash_table[target - nums[i]] != i:            print([i, hash_table[target - nums[i]]])

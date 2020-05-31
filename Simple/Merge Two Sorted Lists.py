@@ -1,0 +1,1 @@
+class ListNode():     # 初始化 构造函数    def __init__(self,value):        self.value=value        self.next=Nonenode1 = ListNode(1)node2 = ListNode(2)node3 = ListNode(3)node1.next = node2node2.next = node3

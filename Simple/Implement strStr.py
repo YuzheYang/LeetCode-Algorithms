@@ -1,0 +1,1 @@
+haystack = "hello"needle = "hj"print(haystack.find(needle))num = [1, 2, 4, 5, 6]tar = 3num.append(tar)print(sorted(num).index(tar))

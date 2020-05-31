@@ -1,0 +1,1 @@
+A = [2, 1, 6, 5]K = 806def addToArrayForm(A, K):    A[-1] += K    for i in range(len(A) - 1, -1, -1):        carry, A[i] = divmod(A[i], 10)        if i:            A[i - 1] += carry    print(carry)    while carry:        A = [carry % 10] + A        carry //= 10    return Aprint(addToArrayForm(A, K))

@@ -1,0 +1,1 @@
+class Solution:    def addDigits(self, num: int) -> int:        add = sum(list(map(int, list(str(num)))))        if len(list(str(add))) == 1:            return add        while (len(list(str(add))) > 1):            add = sum(list(map(int, list(str(add)))))            if (len(list(str(add))) == 1):                return add

@@ -1,0 +1,1 @@
+a = [1, 2, 3, 0, 0,0]b = [2, 5, 7]c = list(filter(lambda x : x!=0, a))c = sorted(c+b)print(c)

@@ -1,0 +1,1 @@
+List1 = [1, 2, 3]List2 = [100, 10, 1]c = sum(list(map(lambda x,y:x*y, List1,List2)))print("".join(list(map(str, List1))))

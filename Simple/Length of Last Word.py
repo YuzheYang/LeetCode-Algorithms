@@ -1,0 +1,1 @@
+str = "Hello World"new = str.split(' ')last = new.pop()print(len(last))

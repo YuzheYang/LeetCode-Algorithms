@@ -1,0 +1,1 @@
+in_num = 1221str_num = list(str(in_num))str_num_ = str_num.copy()str_num.reverse()print(str_num)print(str_num_)if str_num==str_num_:    print('True')else:    print('False')# s = str(x)# return s == s[::-1]
